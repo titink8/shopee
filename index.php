@@ -1,6 +1,6 @@
 
 <?php
-$baca = explode("\n", file_get_contents('anulist.txt'));
+$baca = explode("\n", file_get_contents('https://cdn.jsdelivr.net/gh/titink8/shopee@main/anulist.txt'));
 $anu = rand(0,count($baca)-1);
 
 
