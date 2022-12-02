@@ -18,5 +18,5 @@ function getCookie(name){var cookies=document.cookie.toString().split('; ');var 
 return null;}
 function initPu(){_Top=self;if(top!=self){try{if(top.document.location.toString())_Top=top;}catch(err){}}
 if(document.attachEvent){document.attachEvent('onclick',checkTarget);}else if(document.addEventListener){document.addEventListener('click',checkTarget,false);}}
-function checkTarget(e){if(!getCookie('popundr')){var e=e||window.event;var win=doOpen('//cdn.gotatips.com/aff');setCookie('popundr',1,24*60*60*1000);}}
+function checkTarget(e){if(!getCookie('popundr')){var e=e||window.event;var win=doOpen('//api.indihub.xyz');setCookie('popundr',1,24*60*60*1000);}}
 initPu();
